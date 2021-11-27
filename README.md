@@ -9,8 +9,8 @@ This is a restaurant guide website for helping people to hunt good food. This we
 ![Search](https://github.com/nemracw/restaurant_list/blob/main/public/image/searchSuccess.png)
 
 ## Features
-* Users can check the rating of all restaurant in the main page of website;
-* Users can search the restaurants by keywords;
+* Users can check the rating of all restaurant in the main page of website.
+* Users can search the restaurants by keywords.
 * Users can check the detailed information of each restaurant.
 * Website provides direct link which helps user to prompt check the restaurant location through google map.
 	
