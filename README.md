@@ -6,7 +6,7 @@ This is a restaurant guide website for helping people to hunt good food. This we
 ![Homepage](https://github.com/nemracw/restaurant_list/blob/main/public/image/mainPage.png)
 
 #### Search function
-![Search](https://github.com/nemracw/restaurant_list/blob/main/public/image/searchPage.png)
+![Search](https://github.com/nemracw/restaurant_list/blob/main/public/image/searchSuccess.png)
 
 ## Features
 * Users can check the rating of all restaurant in the main page of website;
