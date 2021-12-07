@@ -85,6 +85,18 @@ app.post('/restaurants/:id/edit', (req, res) => {
   }).catch(err => console.log(err))
 })
 
+//delete page
+app.post('/restaurants/:id/delete', (req, res) => {
+  console.log(req.params)
+  const id = req.params.id
+  return Restaurant.findById(id).then(restaurant => {
+    restaurant.remove()
+    res.redirect('/')
+  }).catch(err => {
+    console.log(err)
+  })
+})
+
 // search page
 app.get('/search', (req, res) => {
   const keyword = req.query.keyword.trim().toLowerCase()
