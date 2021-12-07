@@ -16,7 +16,6 @@ db.once('open', () => {
   for (let i = 0; i < restaurantList.length; i++) {
     const list = restaurantList[i]
     restaurant.create({
-      id: list.id,
       name: list.name,
       category: list.category,
       image: list.image,
