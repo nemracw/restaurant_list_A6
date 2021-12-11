@@ -27,7 +27,7 @@ router.post('/restaurants', (req, res) => {
 
 //edit restaurant data
 // add edit feature
-router.get('/restaurants/:id/edit', (req, res) => {
+router.put('/restaurants/:id', (req, res) => {
   const id = req.params.id
   Restaurant.findById(id).lean().then(restaurant => res.render('edit', { restaurant })).catch(err => console.error(err))
 })
