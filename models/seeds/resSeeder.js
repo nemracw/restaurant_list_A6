@@ -1,3 +1,4 @@
+//建立 Seeder 腳本
 const mongoose = require('mongoose')
 const restaurant = require('../restaurant')
 const restaurantList = require('../../restaurant.json').results
