@@ -3,13 +3,13 @@ This is a restaurant guide website for helping people to hunt good food. This we
 
 ## Screentshots
 #### Homepage
-![Homepage](https://github.com/nemracw/restaurant_list/blob/main/public/image/mainPageR2.png)
+![Homepage](https://github.com/nemracw/restaurant_list_A6/blob/main/public/image/mainPageR2.png)
 
 #### Search function
-![Search](https://github.com/nemracw/restaurant_list/blob/main/public/image/searchSuccessR2.png)
+![Search](https://github.com/nemracw/restaurant_list_A6/blob/main/public/image/searchSuccessR2.png)
 
 #### Create function
-![Create](https://github.com/nemracw/restaurant_list/blob/main/public/image/createPageR2.png)
+![Create](https://github.com/nemracw/restaurant_list_A6/blob/main/public/image/createPageR2.png)
 
 ## Features
 * Users can check the rating of all restaurant in the main page of website.
