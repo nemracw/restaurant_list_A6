@@ -2,11 +2,10 @@
 const express = require('express')
 const router = express.Router()
 const home = require('./modules/home')
-router.use('/', home)
-
-// 引入 restaurants 模組程式碼
 const restaurants = require('./modules/restaurant')
-// 將網址結構符合 /restaurants 字串開頭的 request 導向 restaurants 模組 
+
+
+router.use('/', home)
 router.use('/restaurants', restaurants)
 
 
