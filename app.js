@@ -6,7 +6,7 @@ const exphbs = require('express-handlebars')
 const Restaurant = require('./models/restaurant')
 const restaurantList = require('./restaurant.json').results 
 const methodOverride = require('method-override') 
-
+const routes = require('./routes')
 
 app.use(methodOverride('_method'))
 
@@ -37,12 +37,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 // routes setting
 // main page
-app.get("/", (req, res) => {
-  Restaurant.find({})
-    .lean()
-    .then(restaurant => res.render("index", { restaurant, style: 'index.css' }))
-    .catch(err => console.log(err))
-})
+app.use(routes)
 
 // show page : show restaurant page detail 
 app.get('/restaurants/:restaurant_id', (req, res) => {

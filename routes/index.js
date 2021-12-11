@@ -10,6 +10,5 @@ const restaurants = require('./modules/restaurant')
 router.use('/restaurants', restaurants)
 
 
-// 準備引入路由模組
 // 匯出路由器
 module.exports = router
