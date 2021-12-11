@@ -1,7 +1,7 @@
 const express = require('express')  
 const port = 3000 
 const exphbs = require('express-handlebars')
-const restaurantList = require('./restaurant.json').results 
+// const restaurantList = require('./restaurant.json').results 
 const bodyParser = require('body-parser')
 const methodOverride = require('method-override') 
 

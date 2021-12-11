@@ -1,9 +1,11 @@
-// 引用 Express 與 Express 路由器
 const express = require('express')
 const router = express.Router()
-
-// 引用 Restaurant model
 const Restaurant = require('../../models/restaurant')
+
+// add new restaurant data
+router.get('/new', (req, res) => {
+  res.render('new')
+})
 
 // show page : show restaurant page detail 
 router.get('/:restaurant_id', (req, res) => {
@@ -19,10 +21,7 @@ router.get('/:restaurant_id', (req, res) => {
     .catch(err => console.log(err));
 })
 
-// add new restaurant data
-router.get('/new', (req, res) => {
-  res.render('new')
-})
+
 router.post('', (req, res) => {
   const new_res = req.body
   return Restaurant.create(new_res).then(() => res.redirect('/')).catch(err => console.error(err))
