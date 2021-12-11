@@ -8,11 +8,19 @@ This is a restaurant guide website for helping people to hunt good food. This we
 #### Search function
 ![Search](https://github.com/nemracw/restaurant_list/blob/main/public/image/searchSuccess.png)
 
+#### Create function
+![Create](https://github.com/nemracw/restaurant_list/blob/main/public/image/createPage.png)
+
 ## Features
 * Users can check the rating of all restaurant in the main page of website.
 * Users can search the restaurants by keywords.
 * Users can check the detailed information of each restaurant.
 * Website provides direct link which helps user to prompt check the restaurant location through google map.
+* Users can add a new restaurant in the page.
+* Users can remove the existing restaurant in the page.
+* Users can edit the restaurant information.
+
+
 	
 ## Requirement
  	Node.js (v14.18.0 is recommended)
@@ -26,7 +34,9 @@ This is a restaurant guide website for helping people to hunt good food. This we
 3. Running documentation locally
 * Enter `cd restaurantList` as a start.	
 * Run `npm install` to install Node.js dependencies.
-* Open `http://localhost:3000` in your browser to run the website.
+* Enter `npm run dev` to run the website
+* Open `http://localhost:3000` in your browser to preview the website.
+* Press `crt + C` to stop running
 
 ## Devtools information
 * Node.js 14.18.0
@@ -34,3 +44,5 @@ This is a restaurant guide website for helping people to hunt good food. This we
 * Express-Handlebars 5.3.5
 * Bootstrap 4.3.1
 * Font-awesome 5.8.1
+* Mongo DB
+* mongoose 6.0.14
