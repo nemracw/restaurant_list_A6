@@ -21,7 +21,6 @@ router.get('/:restaurant_id', (req, res) => {
     .catch(err => console.log(err));
 })
 
-
 router.post('', (req, res) => {
   const new_res = req.body
   return Restaurant.create(new_res).then(() => res.redirect('/')).catch(err => console.error(err))
@@ -59,22 +58,6 @@ router.delete('/:id', (req, res) => {
   }).catch(err => {
     console.log(err)
   })
-})
-
-// search function
-router.get('/search', (req, res) => {
-  const keywords = req.query.keyword.toLowerCase().trim()
-  Restaurant.find()
-    .lean()
-    .then(restaurants => {
-      const filtered_restaurant = restaurants.filter(restaurant => restaurant.name.toLowerCase().includes(keywords) || restaurant.category.toLowerCase().includes(keywords));
-      res.render('index', {
-        restaurant: filtered_restaurant,
-        keyword: keywords,
-        filter_length: filtered_restaurant.length,
-        style: 'index.css'
-      });
-    }).catch(err => console.log(err))
 })
 
 
