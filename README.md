@@ -3,7 +3,7 @@ This is a restaurant guide website for helping people to hunt good food. This we
 
 ## Screentshots
 #### Homepage
-![Homepage](https://github.com/nemracw/restaurant_list/blob/main/public/image/mainPage.png)
+![Homepage](https://github.com/nemracw/restaurant_list/blob/main/public/image/newMainPage.png)
 
 #### Search function
 ![Search](https://github.com/nemracw/restaurant_list/blob/main/public/image/searchSuccess.png)
