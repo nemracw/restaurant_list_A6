@@ -3,13 +3,13 @@ This is a restaurant guide website for helping people to hunt good food. This we
 
 ## Screentshots
 #### Homepage
-![Homepage](https://github.com/nemracw/restaurant_list/blob/main/public/image/newMainPageR2.png)
+![Homepage](https://github.com/nemracw/restaurant_list/blob/main/public/image/mainPageR2.png)
 
 #### Search function
-![Search](https://github.com/nemracw/restaurant_list/blob/main/public/image/searchSuccess.png)
+![Search](https://github.com/nemracw/restaurant_list/blob/main/public/image/searchSuccessR2.png)
 
 #### Create function
-![Create](https://github.com/nemracw/restaurant_list/blob/main/public/image/createPage.png)
+![Create](https://github.com/nemracw/restaurant_list/blob/main/public/image/createPageR2.png)
 
 ## Features
 * Users can check the rating of all restaurant in the main page of website.
@@ -46,3 +46,6 @@ This is a restaurant guide website for helping people to hunt good food. This we
 * Font-awesome 5.8.1
 * Mongo DB
 * mongoose 6.0.14
+
+## Remarks
+ sorting feature is developing.
