@@ -43,11 +43,19 @@
       />
     </div>
   </div>
-  <a href="/restaurants/{{ restaurant._id }}/edit">edit</a>
-  <a href="/">back</a>
-  <form action="/restaurants/{{restaurant._id}}/delete" method="POST" style="display: inline;">
-     <button type="submit" class="btn btn-danger btn-sm text-white">
-       delete
-     </button>
-  </form>
+
+  <div class="col mb-4 text-right">
+    
+    <a href="/restaurants/{{ restaurant._id }}/edit">
+      <div class="btn btn-light btn-sm">Edit</div>
+    </a>
+    <a href="/">
+      <div class="btn btn-secondary btn-sm">Back</div>
+    </a>
+    <form action="/restaurants/{{restaurant._id}}/delete" method="POST" style="display: inline;">
+      <button type="submit" class="btn btn-danger btn-sm text-white">
+        delete
+      </button>
+    </form>
+  </div>
 </div>
